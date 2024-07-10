@@ -30,7 +30,7 @@ console.log("original console", profile.name); //es5
 //deep copy
 
 const deepCopy = { ...profile }; //spread operator
-deepCopy.name = "sheraz";
+deepCopy.name = "shahazad";
 console.log("deepCopy console", deepCopy.name); //
 console.log("original console", profile.name); //es5
 
